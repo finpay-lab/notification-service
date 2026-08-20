@@ -1,11 +1,10 @@
 package com.finpay.notification.service;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class NotificationServiceApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(NotificationServiceApplication.class, args);
-    }
+/**
+ * Legacy flat-package placeholder. The canonical NotificationServiceApplication
+ * lives in the nested com/finpay/notification/service/ package. Avoids a
+ * duplicate-class compile error against that file. Not the boot entry point.
+ */
+final class NotificationServiceLegacyBootstrap {
+    private NotificationServiceLegacyBootstrap() {}
 }
